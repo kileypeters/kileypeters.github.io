@@ -1,9 +1,12 @@
-box {
-    width: 500px;
-    height: 200 px;
-  background-color: blue;
+body {
+  background-color: skyblue;
 }
 
-h5 {
-   color: hotpink;
+h1 {
+   color: white;
+}
+img {
+    
+    width: 75%;
+    height: 500px;
 }
