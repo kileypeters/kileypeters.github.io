@@ -16,7 +16,8 @@ p {
 }
 .ice-cream {
     z-index: 1;
-    background:10% url(splash.png);
+    background: url(splash.png);
+    background-size:cover;
     border-radius: 10px;
     width: 450px;
     height: 250px;
