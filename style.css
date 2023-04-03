@@ -1,17 +1,17 @@
-@import url('satoshi.css');
+@import url('css/satoshi.css');
 body {
   background-color: whitesmoke;
 }
 h1 {
-    color: rgb(43, 42, 42);
-    font-family: Satoshi-Bold;
-    font-size: 42;
+    color: rgb(73, 68, 68);
+    font-family: Satoshi-Variable;
+    font-weight: 900;
     text-align: right;
 }
 p {
-    color: rgb(43, 42, 42);
-    font-family: Satoshi-Regular;
-    font-size: medium;
+    color: rgb(73, 68, 68);
+    font-family: Satoshi-Variable;
+    font-weight: 600;
     text-align: right;
 }
 .ice-cream {
@@ -35,4 +35,26 @@ img {
     height: 200px;
     border-radius: 50%;
     border:20px solid whitesmoke;
+}
+.socials{
+    display:inline;
+    height:3.5rem;
+    width:3.5rem;
+    border-radius:100%;
+    text-align:center;
+    font-size:1.5rem;
+    line-height:5rem;
+    margin-right:3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a:hover .fab {
+    color:#ffc2e3
+}
+.fab {
+    color: white;
+    padding: 1rem;
+    position: center;
 }
