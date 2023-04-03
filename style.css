@@ -6,32 +6,33 @@ h1 {
     color: rgb(43, 42, 42);
     font-family: Satoshi-Bold;
     font-size: 42;
+    text-align: right;
 }
 p {
     color: rgb(43, 42, 42);
     font-family: Satoshi-Regular;
     font-size: medium;
-}
-div {
-    width: 60%;
-    height: 250px;
-    align-content: center;
+    text-align: right;
 }
 .ice-cream {
+    z-index: 1;
     background:10% url(splash.png);
     border-radius: 10px;
+    width: 450px;
+    height: 250px;
 }
 .center-screen {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-} 
-img {
-    width: 75%;
-    height: 500px;
 }
-header {
-    align-content: center;
-    width: fit-content;
+img {
+    z-index: 2;
+    position: absolute;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:20px solid whitesmoke;
 }
