@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&display=swap');
+:root {
+    --color-background: lavender;
+    --color-accent: #33334d;
+}
+h1.status-title {
+    color: var(--color-accent);
+    font-family: DynaPuff;
+}
+h1.display-1 {
+    color: var(--color-background);
+}
+body {
+    background-color: var(--color-background);
+}
+.fa-solid {
+    color: var(--color-accent);  
+}
+.study-time {
+    background-image: url(kiki.jpg);
+    background-size:cover;
+}
+.break-time {
+    background-image: url(tanjiro.jpg);
+    background-size:cover;
+}
